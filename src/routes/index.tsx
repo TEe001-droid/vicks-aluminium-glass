@@ -47,12 +47,8 @@ function Index() {
       {/* NAV */}
       <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <a href="#top" className="flex items-center gap-2">
-            <img src={logo} alt="Vicks Aluminium and Glass" className="h-11 w-11" />
-            <div className="leading-tight">
-              <div className="font-display text-lg font-black tracking-wide text-metal">VICKS</div>
-              <div className="text-[10px] font-semibold tracking-[0.2em] text-primary">ALUMINIUM & GLASS</div>
-            </div>
+          <a href="#top" className="flex items-center">
+            <img src={logo} alt="Vick's Aluminium and Glass" className="h-12 w-auto" />
           </a>
           <nav className="hidden gap-7 text-sm font-medium text-muted-foreground md:flex">
             <a href="#services" className="hover:text-foreground">Services</a>
