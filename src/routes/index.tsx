@@ -185,9 +185,8 @@ function Index() {
 
       <footer className="border-t border-border bg-background py-8">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 text-xs text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <img src={logo} alt="" className="h-7 w-7" />
-            <span className="font-semibold text-foreground">Vicks Aluminium and Glass</span>
+          <div className="flex items-center">
+            <img src={logo} alt="Vick's Aluminium and Glass" className="h-8 w-auto" />
           </div>
           <div>© {new Date().getFullYear()} Vicks Aluminium and Glass. All rights reserved.</div>
         </div>
