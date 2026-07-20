@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import logo from "@/assets/vicks-logo.svg";
+import logoAsset from "@/assets/vicks-logo.png.asset.json";
 import house1Asset from "@/assets/house1.jpeg.asset.json";
 import house2Asset from "@/assets/house2.jpeg.asset.json";
 
@@ -48,7 +48,7 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border/70 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
           <a href="#top" className="flex items-center">
-            <img src={logo} alt="Vick's Aluminium and Glass" className="h-12 w-auto" />
+            <img src={logoAsset.url} alt="Vick's Aluminium and Glass" className="h-12 w-auto" />
           </a>
           <nav className="hidden gap-7 text-sm font-medium text-muted-foreground md:flex">
             <a href="#services" className="hover:text-foreground">Services</a>
@@ -186,7 +186,7 @@ function Index() {
       <footer className="border-t border-border bg-background py-8">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 text-xs text-muted-foreground">
           <div className="flex items-center">
-            <img src={logo} alt="Vick's Aluminium and Glass" className="h-8 w-auto" />
+            <img src={logoAsset.url} alt="Vick's Aluminium and Glass" className="h-8 w-auto" />
           </div>
           <div>© {new Date().getFullYear()} Vicks Aluminium and Glass. All rights reserved.</div>
         </div>
