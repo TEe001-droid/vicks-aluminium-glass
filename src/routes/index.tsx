@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import logo from "@/assets/vicks-logo.svg";
+import logoAsset from "@/assets/vicks-logo.png.asset.json";
 import house1Asset from "@/assets/house1.jpeg.asset.json";
 import house2Asset from "@/assets/house2.jpeg.asset.json";
 
