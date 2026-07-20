@@ -1,56 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 820 220"
+     width="820"
+     height="220"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">VICKS Aluminium Glass Gutters Logo</title>
+  <desc id="desc">
+    Premium modern logo for Vicks Aluminium Glass Gutters.
+  </desc>
   <defs>
-    <linearGradient id="mainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2c3e7a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a2a5e;stop-opacity:1" />
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3BC6FF"/>
+      <stop offset="100%" stop-color="#0D8BE8"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4a90d9;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#6db3f2;stop-opacity:1" />
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1BA34A"/>
+      <stop offset="100%" stop-color="#36D46A"/>
     </linearGradient>
-    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#a8d8ea;stop-opacity:0.6" />
-      <stop offset="50%" style="stop-color:#d4eef7;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#7ec8e3;stop-opacity:0.5" />
-    </linearGradient>
-    <linearGradient id="alumGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#e8e8e8;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#c0c0c0;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#a0a0a0;stop-opacity:1" />
-    </linearGradient>
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
-    </filter>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <rect width="800" height="500" rx="20" fill="#f8f9fc"/>
-  <rect x="60" y="70" width="180" height="180" rx="12" fill="url(#glassGrad)" stroke="#b0d4e8" stroke-width="2" opacity="0.7"/>
-  <rect x="55" y="65" width="190" height="190" rx="14" fill="none" stroke="url(#alumGrad)" stroke-width="6"/>
-  <line x1="150" y1="65" x2="150" y2="255" stroke="url(#alumGrad)" stroke-width="4"/>
-  <line x1="55" y1="160" x2="245" y2="160" stroke="url(#alumGrad)" stroke-width="4"/>
-  <polygon points="65,75 120,75 65,130" fill="white" opacity="0.15"/>
-  <polygon points="68,78 115,78 68,125" fill="white" opacity="0.1"/>
-  <rect x="85" y="100" width="55" height="100" rx="2" fill="none" stroke="url(#alumGrad)" stroke-width="3"/>
-  <circle cx="132" cy="150" r="4" fill="#b0b0b0"/>
-  <path d="M40 65 L150 25 L260 65" stroke="url(#alumGrad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-  <path d="M45 65 L150 30 L255 65" stroke="#4a90d9" stroke-width="2" fill="none" opacity="0.5"/>
-  <text x="290" y="120" font-family="'Georgia', 'Times New Roman', serif" font-size="58" font-weight="bold" fill="url(#mainGrad)" letter-spacing="4" filter="url(#shadow)">VICK'S</text>
-  <text x="290" y="165" font-family="'Arial', 'Helvetica', sans-serif" font-size="22" font-weight="300" fill="#4a6fa5" letter-spacing="8">ALUMINIUM &amp; GLASS</text>
-  <line x1="290" y1="185" x2="700" y2="185" stroke="url(#accentGrad)" stroke-width="2"/>
-  <circle cx="700" cy="185" r="4" fill="#4a90d9"/>
-  <circle cx="290" cy="185" r="4" fill="#4a90d9"/>
-  <text x="290" y="225" font-family="'Arial', 'Helvetica', sans-serif" font-size="14" font-weight="400" fill="#6b8bb0" letter-spacing="5">PREMIUM ALUMINIUM FABRICATION</text>
-  <text x="290" y="260" font-family="'Arial', 'Helvetica', sans-serif" font-size="12" fill="#8a9db0" letter-spacing="3">WINDOWS  •  DOORS  •  GUTTERS  •  FASCIAS  •  CARPORTS</text>
-  <rect x="290" y="280" width="400" height="2" fill="url(#accentGrad)" opacity="0.3"/>
-  <rect x="290" y="295" width="30" height="4" rx="1" fill="#c0c0c0"/>
-  <rect x="330" y="295" width="30" height="4" rx="1" fill="#c0c0c0"/>
-  <rect x="370" y="295" width="30" height="4" rx="1" fill="#c0c0c0"/>
-  <polygon points="720,420 750,380 780,420" fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.4"/>
-  <polygon points="725,418 750,385 775,418" fill="none" stroke="#6db3f2" stroke-width="1" opacity="0.3"/>
+  <!-- Icon -->
+  <g transform="translate(20 25)">
+    <!-- Aluminium frame -->
+    <polygon
+      points="70,150 110,20 150,150 128,150 110,90 92,150"
+      fill="#111111"/>
+    <!-- Glass panel -->
+    <polygon
+      points="110,42 132,108 110,92 88,108"
+      fill="url(#glass)"
+      opacity="0.95"/>
+    <!-- Base accent -->
+    <rect
+      x="40"
+      y="165"
+      width="140"
+      height="7"
+      rx="3.5"
+      fill="url(#green)"/>
+  </g>
+  <!-- Wordmark -->
+  <text
+    x="210"
+    y="98"
+    font-family="Montserrat, Poppins, Arial, sans-serif"
+    font-size="72"
+    font-weight="800"
+    fill="#111111"
+    letter-spacing="3">
+    VICKS
+  </text>
+  <!-- Accent line -->
+  <rect
+    x="212"
+    y="112"
+    width="265"
+    height="6"
+    rx="3"
+    fill="url(#green)"/>
+  <!-- Tagline -->
+  <text
+    x="212"
+    y="156"
+    font-family="Montserrat, Arial, sans-serif"
+    font-size="22"
+    font-weight="600"
+    fill="#666666"
+    letter-spacing="2">
+    ALUMINIUM • GLASS • GUTTERS
+  </text>
 </svg>
